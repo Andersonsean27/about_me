@@ -1,9 +1,46 @@
 * {
 
 
-  background-color: orange;
+  background-color: gray;
 }
 h1 {
-  color: cyan;
+  color: red;
+  font-family: verdana;
 
+}
+
+
+h2 {
+  color: orange;
+  font-family: verdana;
+
+}
+p {
+  font-family: verdana;
+  font-size: 12px;
+  background-color: white;
+}
+.Bio {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  background-color: yellow;
+}
+.Education {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  background-color: cyan;
+}
+.Jobs {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  background-color: green;
+}
+.Goals{
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  background-color: purple;
 }

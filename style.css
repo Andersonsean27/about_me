@@ -58,6 +58,9 @@ p {
   padding: 10px;
 
 }
+ul {
+  background-color: white;
+}
 .Goals{
   height: 300px;
   width: 300px;
@@ -66,4 +69,24 @@ p {
   display: inline-block;
   margin: 20px;
   padding: 10px;
+}
+
+.Bands{
+  height: 300px;
+  width: 300px
+  border: 1px solid black;
+  background color: #b3d9ff;
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+}
+ol {
+  {
+    height: 300px;
+    width: 300px
+    border: 1px solid black;
+    background color: #b3d9ff;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
 }

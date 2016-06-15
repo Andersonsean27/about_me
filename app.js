@@ -1,4 +1,5 @@
-/*'use strict';
+'use strict';
+var correctAnswers = 0; 
 var userName = prompt('Greetings! What is your name?');
 alert('Welcome, ' + userName + ', glad you\'re here!');
 console.log('The user is about to begin the quiz.');
@@ -59,10 +60,17 @@ for (var i = 0; i < 4; i++) {
     console.log('The user guessed too high.');
     alert('Too high!');
   }
-}*/
-var answer7 = prompt('Name a country that Sean has lived in besides the U.S.');
-var countries = ['Ecuador', 'Serbia'];
-console.log('The user will now guess countries');
-for (var i = 0; i < 6; i++); {
-
 }
+console.log('The user will now guess countries');
+for (var i = 0; i < 6; i++) {
+  var answer7 = prompt('Name a country that Sean has lived in besides the U.S.');
+  if (answer7.toLowerCase() === 'ecuador' || answer7.toLowerCase() === 'bosnia') {
+    console.log('The user answered correctly');
+    alert('Correct! I have lived in ' + answer7);
+    break;
+  } else {
+    console.log('The user answered incorrectly');
+    alert('Incorrect!');
+  }
+}
+alert('Sean has lived in Ecuador and Bosnia.');

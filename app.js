@@ -35,16 +35,20 @@ function q2() {
 
 q2();
 
-var answer3 = prompt('Has Sean ran a marathon?');
-console.log('The user answered ' + answer3);
-if (answer3.toLowerCase() === 'yes' || answer3.toLowerCase() === 'y') {
-  alert('Right! Sean ran the Last Chance Marathon in Bellingham.');
-  console.log('The user answered correctly');
-  counter ++;
-} else {
-  alert('Wrong! Sean ran the Last Chance Marathon in Bellingham.');
-  console.log('The user answered incorrectly');
+function q3() {
+  var answer3 = prompt('Has Sean ran a marathon?');
+  console.log('The user answered ' + answer3);
+  if (answer3.toLowerCase() === 'yes' || answer3.toLowerCase() === 'y') {
+    alert('Right! Sean ran the Last Chance Marathon in Bellingham.');
+    console.log('The user answered correctly');
+    counter ++;
+  } else {
+    alert('Wrong! Sean ran the Last Chance Marathon in Bellingham.');
+    console.log('The user answered incorrectly');
+  }
 }
+
+q3();
 
 var answer4 = prompt('Can Sean play the piano?');
 console.log('The user answered ' + answer4);

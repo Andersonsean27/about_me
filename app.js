@@ -107,7 +107,8 @@ function q7() {
   console.log('The user will now guess countries');
   for (var i = 0; i < 6; i++) {
     var answer7 = prompt('Name a country that Sean has lived in besides the U.S.');
-    if (answer7.toLowerCase() === 'ecuador' || answer7.toLowerCase() === 'bosnia') {
+    var countries = ['ecuador', 'bosnia'];
+    if (answer7.toLowerCase() === countries[0] || answer7.toLowerCase() === countries[1]) {
       console.log('The user answered correctly');
       alert('Correct! Sean has lived in ' + answer7);
       counter++;

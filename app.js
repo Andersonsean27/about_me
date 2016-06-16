@@ -5,16 +5,19 @@ alert('Welcome, ' + userName + ', glad you\'re here!');
 console.log('The user is named ' + userName);
 console.log('The user is about to begin the quiz.');
 
-var answer1 = prompt('Has Sean been to Bosnia?');
-console.log('The user answered ' + answer1);
-if (answer1.toLowerCase() === 'yes' || answer1.toLowerCase() === 'y') {
-  counter ++;
-  alert('Right! Sean studied abroad in Sarajevo.');
-  console.log('The user answered correctly');
-} else {
-  alert('Wrong! Sean studied abroad in Sarajevo.');
-  console.log('The user answered incorrectly');
+function q1() {var answer1 = prompt('Has Sean been to Bosnia?');
+  console.log('The user answered ' + answer1);
+  if (answer1.toLowerCase() === 'yes' || answer1.toLowerCase() === 'y') {
+    counter ++;
+    alert('Right! Sean studied abroad in Sarajevo.');
+    console.log('The user answered correctly');
+  } else {
+    alert('Wrong! Sean studied abroad in Sarajevo.');
+    console.log('The user answered incorrectly');
+  }
 }
+
+q1();
 
 var answer2 = prompt('Has Sean Written 4 novels?');
 console.log('The user answered ' + answer2);

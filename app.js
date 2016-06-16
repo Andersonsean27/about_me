@@ -1,7 +1,8 @@
-/*'use strict';
+'use strict';
 var counter = 0;
 var userName = prompt('Greetings! What is your name?');
 alert('Welcome, ' + userName + ', glad you\'re here!');
+console.log('The user is named ' + userName);
 console.log('The user is about to begin the quiz.');
 
 var answer1 = prompt('Has Sean been to Bosnia?');
@@ -9,35 +10,43 @@ console.log('The user answered ' + answer1);
 if (answer1.toLowerCase() === 'yes' || answer1.toLowerCase() === 'y') {
   counter ++;
   alert('Right! Sean studied abroad in Sarajevo.');
+  console.log('The user answered correctly');
 } else {
   alert('Wrong! Sean studied abroad in Sarajevo.');
+  console.log('The user answered incorrectly');
 }
 
 var answer2 = prompt('Has Sean Written 4 novels?');
 console.log('The user answered ' + answer2);
 if (answer2.toLowerCase() === 'no' || answer2.toLowerCase() === 'n'){
   alert('Right! Sean has written 3 novels.');
+  console.log('The user answered correctly');
   counter ++;
 } else {
   alert('Wrong! Sean has written 3 novels.');
+  console.log('The user answered incorrectly');
 }
 
 var answer3 = prompt('Has Sean ran a marathon?');
 console.log('The user answered ' + answer3);
 if (answer3.toLowerCase() === 'yes' || answer3.toLowerCase() === 'y') {
   alert('Right! Sean ran the Last Chance Marathon in Bellingham.');
+  console.log('The user answered correctly');
   counter ++;
 } else {
   alert('Wrong! Sean ran the Last Chance Marathon in Bellingham.');
+  console.log('The user answered incorrectly');
 }
 
 var answer4 = prompt('Can Sean play the piano?');
 console.log('The user answered ' + answer4);
 if (answer4.toLowerCase() === 'no' || answer4.toLowerCase() === 'n') {
   alert('Right! Sean plays the drums.');
+  console.log('The user answered correctly');
   counter ++;
 } else {
   alert('Wrong! Sean plays the drums.');
+  console.log('The user answered incorrectly');
 }
 
 var answer5 = prompt('Is Radiohead Sean\'s favorite band?');
@@ -45,9 +54,11 @@ console.log('The user answered ' + answer5);
 if (answer5.toLowerCase() === 'yes' || answer5.toLowerCase() === 'y') {
   console.log('The user answered ' + answer5);
   alert('Right! Sean is a big fan of Radiohead.');
+  console.log('The user answered correctly');
   counter ++;
 } else {
   alert('Wrong! Sean is a big fan of Radiohead.');
+  console.log('The user answered incorrectly');
 }
 
 console.log('The user will now guess a number');
@@ -72,7 +83,7 @@ for (var i = 0; i < 6; i++) {
   var answer7 = prompt('Name a country that Sean has lived in besides the U.S.');
   if (answer7.toLowerCase() === 'ecuador' || answer7.toLowerCase() === 'bosnia') {
     console.log('The user answered correctly');
-    alert('Correct! I have lived in ' + answer7);
+    alert('Correct! Sean has lived in ' + answer7);
     counter++;
     break;
   } else {
@@ -82,4 +93,4 @@ for (var i = 0; i < 6; i++) {
 }
 console.log('The user finished the quiz! :o)');
 alert('Sean has lived in Ecuador and Bosnia.');
-alert('You scored ' + counter + ' correct out of 7 questions.');*/
+alert('You scored ' + counter + ' correct out of 7 questions.');

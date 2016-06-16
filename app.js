@@ -81,23 +81,28 @@ function q5() {
 
 q5();
 
-console.log('The user will now guess a number');
-for (var i = 0; i < 4; i++) {
-  var answer6 = parseInt(prompt('Guess a number!'));
-  console.log('The user guessed ' + answer6);
-  if (answer6 === 7) {
-    console.log('The correct number was guessed');
-    alert('Correct!');
-    counter++;
-    break;
-  } else if (answer6 < 7) {
-    console.log('The user guessed too low.');
-    alert('Too low!');
-  } else {
-    console.log('The user guessed too high.');
-    alert('Too high!');
+function q6() {
+  console.log('The user will now guess a number');
+  for (var i = 0; i < 4; i++) {
+    var answer6 = parseInt(prompt('Guess a number!'));
+    console.log('The user guessed ' + answer6);
+    if (answer6 === 7) {
+      console.log('The correct number was guessed');
+      alert('Correct!');
+      counter++;
+      break;
+    } else if (answer6 < 7) {
+      console.log('The user guessed too low.');
+      alert('Too low!');
+    } else {
+      console.log('The user guessed too high.');
+      alert('Too high!');
+    }
   }
 }
+
+q6();
+
 console.log('The user will now guess countries');
 for (var i = 0; i < 6; i++) {
   var answer7 = prompt('Name a country that Sean has lived in besides the U.S.');

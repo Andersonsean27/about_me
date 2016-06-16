@@ -5,7 +5,8 @@ alert('Welcome, ' + userName + ', glad you\'re here!');
 console.log('The user is named ' + userName);
 console.log('The user is about to begin the quiz.');
 
-function q1() {var answer1 = prompt('Has Sean been to Bosnia?');
+function q1() {
+  var answer1 = prompt('Has Sean been to Bosnia?');
   console.log('The user answered ' + answer1);
   if (answer1.toLowerCase() === 'yes' || answer1.toLowerCase() === 'y') {
     counter ++;
@@ -19,16 +20,20 @@ function q1() {var answer1 = prompt('Has Sean been to Bosnia?');
 
 q1();
 
-var answer2 = prompt('Has Sean Written 4 novels?');
-console.log('The user answered ' + answer2);
-if (answer2.toLowerCase() === 'no' || answer2.toLowerCase() === 'n'){
-  alert('Right! Sean has written 3 novels.');
-  console.log('The user answered correctly');
-  counter ++;
-} else {
-  alert('Wrong! Sean has written 3 novels.');
-  console.log('The user answered incorrectly');
+function q2() {
+  var answer2 = prompt('Has Sean Written 4 novels?');
+  console.log('The user answered ' + answer2);
+  if (answer2.toLowerCase() === 'no' || answer2.toLowerCase() === 'n'){
+    alert('Right! Sean has written 3 novels.');
+    console.log('The user answered correctly');
+    counter ++;
+  } else {
+    alert('Wrong! Sean has written 3 novels.');
+    console.log('The user answered incorrectly');
+  }
 }
+
+q2();
 
 var answer3 = prompt('Has Sean ran a marathon?');
 console.log('The user answered ' + answer3);

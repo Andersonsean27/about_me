@@ -103,19 +103,24 @@ function q6() {
 
 q6();
 
-console.log('The user will now guess countries');
-for (var i = 0; i < 6; i++) {
-  var answer7 = prompt('Name a country that Sean has lived in besides the U.S.');
-  if (answer7.toLowerCase() === 'ecuador' || answer7.toLowerCase() === 'bosnia') {
-    console.log('The user answered correctly');
-    alert('Correct! Sean has lived in ' + answer7);
-    counter++;
-    break;
-  } else {
-    console.log('The user answered incorrectly');
-    alert('Incorrect!');
+function q7() {
+  console.log('The user will now guess countries');
+  for (var i = 0; i < 6; i++) {
+    var answer7 = prompt('Name a country that Sean has lived in besides the U.S.');
+    if (answer7.toLowerCase() === 'ecuador' || answer7.toLowerCase() === 'bosnia') {
+      console.log('The user answered correctly');
+      alert('Correct! Sean has lived in ' + answer7);
+      counter++;
+      break;
+    } else {
+      console.log('The user answered incorrectly');
+      alert('Incorrect!');
+    }
   }
 }
+
+q7();
+
 console.log('The user finished the quiz! :o)');
 alert('Sean has lived in Ecuador and Bosnia.');
 alert('You scored ' + counter + ' correct out of 7 questions.');

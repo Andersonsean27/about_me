@@ -50,16 +50,20 @@ function q3() {
 
 q3();
 
-var answer4 = prompt('Can Sean play the piano?');
-console.log('The user answered ' + answer4);
-if (answer4.toLowerCase() === 'no' || answer4.toLowerCase() === 'n') {
-  alert('Right! Sean plays the drums.');
-  console.log('The user answered correctly');
-  counter ++;
-} else {
-  alert('Wrong! Sean plays the drums.');
-  console.log('The user answered incorrectly');
+function q4() {
+  var answer4 = prompt('Can Sean play the piano?');
+  console.log('The user answered ' + answer4);
+  if (answer4.toLowerCase() === 'no' || answer4.toLowerCase() === 'n') {
+    alert('Right! Sean plays the drums.');
+    console.log('The user answered correctly');
+    counter ++;
+  } else {
+    alert('Wrong! Sean plays the drums.');
+    console.log('The user answered incorrectly');
+  }
 }
+
+q4();
 
 var answer5 = prompt('Is Radiohead Sean\'s favorite band?');
 console.log('The user answered ' + answer5);

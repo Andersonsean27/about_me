@@ -65,17 +65,21 @@ function q4() {
 
 q4();
 
-var answer5 = prompt('Is Radiohead Sean\'s favorite band?');
-console.log('The user answered ' + answer5);
-if (answer5.toLowerCase() === 'yes' || answer5.toLowerCase() === 'y') {
+function q5() {
+  var answer5 = prompt('Is Radiohead Sean\'s favorite band?');
   console.log('The user answered ' + answer5);
-  alert('Right! Sean is a big fan of Radiohead.');
-  console.log('The user answered correctly');
-  counter ++;
-} else {
-  alert('Wrong! Sean is a big fan of Radiohead.');
-  console.log('The user answered incorrectly');
+  if (answer5.toLowerCase() === 'yes' || answer5.toLowerCase() === 'y') {
+    console.log('The user answered ' + answer5);
+    alert('Right! Sean is a big fan of Radiohead.');
+    console.log('The user answered correctly');
+    counter ++;
+  } else {
+    alert('Wrong! Sean is a big fan of Radiohead.');
+    console.log('The user answered incorrectly');
+  }
 }
+
+q5();
 
 console.log('The user will now guess a number');
 for (var i = 0; i < 4; i++) {

@@ -1,4 +1,4 @@
-'use strict';
+/*'use strict';
 var counter = 0;
 var userName = prompt('Greetings! What is your name?');
 alert('Welcome, ' + userName + ', glad you\'re here!');
@@ -82,4 +82,4 @@ for (var i = 0; i < 6; i++) {
 }
 console.log('The user finished the quiz! :o)');
 alert('Sean has lived in Ecuador and Bosnia.');
-alert('You scored ' + counter + ' correct out of 7 questions.')
+alert('You scored ' + counter + ' correct out of 7 questions.');*/

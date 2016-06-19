@@ -27,7 +27,7 @@ h2 {
 p {
   font-family: verdana;
   font-size: 16px;
-  background-color: white;
+  background-color: #ffffb3;
   padding: 10px;
 }
 
@@ -69,7 +69,15 @@ ul {
 }
 
 li {
-  background: white;
+  background-color: white;
+}
+
+ol {
+  background-color: white;
+}
+
+h2 > p {
+  background-color: white;
 }
 
 .Goals{

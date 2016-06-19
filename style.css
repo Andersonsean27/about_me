@@ -1,5 +1,13 @@
 * {
-  background-color: #e6ffff;
+font-family: verdana;
+}
+
+.gradient {
+  background-image:
+    radial-gradient(
+      #e6ffff,
+      #4dd2ff
+    );
 }
 
 h1 {
@@ -8,12 +16,11 @@ h1 {
   margin-left:20px;
 }
 
-
 img {
-height: 225px;
-width: 300px;
-display: inline;
-margin: 25px;
+  height: 225px;
+  width: 315px;
+  display: inline;
+  margin: 25px;
 }
 
 h2 {
@@ -25,15 +32,35 @@ h2 {
 p {
   font-family: verdana;
   font-size: 16px;
-  background-color: white;
   padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+ul {
+  background-color: white;
+  font-family: verdana;
+  font-size: 13.5px;
+  height: 118px;
+  border: 1px solid black;
+  position: relative;
+  top: -10px;
+}
+
+ol {
+  background-color: white;
+  border: 1px solid black;
+}
+
+li {
+  background-color: white;
 }
 
 .Bio {
   height: 300px;
   width: 300px;
   border: 1px solid black;
-  background-color: #b3d9ff;
+  background-color: #f2f2f2;
   display: inline-block;
   margin: 20px;
   padding: 10px;
@@ -53,24 +80,15 @@ p {
   height: 300px;
   width: 300px;
   border: 1px solid black;
-  background-color: #b3d9ff;
+  background-color: #f2f2f2;
   display: inline-block;
   margin: 20px;
   padding: 10px;
+  position: relative;
+  top: -5px;
 }
 
-ul {
-  background-color: white;
-  font-family: verdana;
-  font-size: 14px;
-  height: 118px;
-}
-
-li {
-  background: white;
-}
-
-.Goals{
+.Goals {
   height: 300px;
   width: 300px;
   border: 1px solid black;
@@ -78,23 +96,34 @@ li {
   display: inline-block;
   margin: 20px;
   padding: 10px;
+  position: relative;
+  top: -27px;
 }
 
-.Bands{
+.Bands {
   height: 300px;
-  width: 300px
+  width: 300px;
   border: 1px solid black;
-  background-color: #b3d9ff;
+  background-color: #ffbf80;
   display: inline-block;
   margin: 20px;
   padding: 10px;
+  position: relative;
+  top: 55px;
 }
+
 .List {
   font-family: verdana;
   font-size: 16px;
   left: 50px;
   background: white;
 }
-div {
-  float: inherit;
+
+.Goals > p {
+  height: 173px;
+}
+
+ul > li {
+  position: relative;
+  left: -15px;
 }

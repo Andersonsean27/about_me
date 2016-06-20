@@ -1,13 +1,5 @@
 * {
-font-family: verdana;
-}
-
-.gradient {
-  background-image:
-    radial-gradient(
-      #e6ffff,
-      #4dd2ff
-    );
+  font-family: verdana;
 }
 
 h1 {
@@ -50,10 +42,20 @@ ul {
 ol {
   background-color: white;
   border: 1px solid black;
+  font-family: verdana;
 }
 
 li {
   background-color: white;
+  font-family: verdana;
+}
+
+.gradient {
+  background-image:
+    radial-gradient(
+      #e6ffff,
+      #4dd2ff
+    );
 }
 
 .Bio {
